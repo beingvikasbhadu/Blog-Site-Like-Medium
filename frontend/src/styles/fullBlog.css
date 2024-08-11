@@ -1,0 +1,51 @@
+.content a{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 300;
+}
+
+
+
+/* .img-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    
+} */
+
+
+.content img
+{
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.content p
+{
+     
+    max-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.content  p code
+{   
+    
+    display:inline-block;
+    width: 60vw; /* Full viewport width */
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+   padding-left:35px;
+   padding-right:35px;
+   
+   background-color: rgb(248 250 252);
+    
+}
